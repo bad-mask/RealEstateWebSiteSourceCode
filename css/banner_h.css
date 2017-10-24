@@ -1,0 +1,127 @@
+.leftinfo{
+	float: left;  
+	width: 600px;
+	height: 450px;
+
+}
+.rightinfo{
+	width: 600px;
+	height: 480px;
+	margin-left: 650px;
+}
+
+.lefe_img{
+	width: 600px;
+	height: 360px;
+}
+
+.jssort01{
+	width: 600px; height: 80px;
+}
+.jssort01 .p{
+	width: 52px; 
+	height: 52px; 
+}
+
+@media screen and (max-width: 960px){
+	.leftinfo,
+	.rightinfo{
+		width: 100%;
+		background: #FFFFFF;
+	}
+	.rightinfo{
+		height: 650px;
+		margin-left: 0px;
+		padding-left: 10px;
+	}
+
+	.leftinfo{
+		height: 270px;
+	}
+	.lefe_img{
+		width: 100%;
+		height: 200px;
+	}
+	.jssort01{
+		height: 60px;
+		width: 100%;
+	}
+	.jssort01 .p{
+		width: 40px;
+		height:40px;
+	}
+
+}
+img{ width: 100%; height: auto;max-width: 100%; display: block; }  
+
+.jssora05l, .jssora05r, .jssora05ldn, .jssora05rdn {
+	position: absolute;
+	cursor: pointer;
+	display: block;
+	background: url(img/a17.png) no-repeat;
+	overflow: hidden;
+}
+
+.jssora05l {
+	background-position: -10px -40px;
+}
+
+.jssora05r {
+	background-position: -70px -40px;
+}
+
+.jssora05l:hover {
+	background-position: -130px -40px;
+}
+
+.jssora05r:hover {
+	background-position: -190px -40px;
+}
+
+.jssora05ldn {
+	background-position: -250px -40px;
+}
+
+.jssora05rdn {
+	background-position: -310px -40px;
+}
+
+.jssort01 .w {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.jssort01 .c {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 52px;
+	height: 52px;
+	border: #fff 1px solid;
+}
+
+.jssort01 .p:hover .c, .jssort01 .pav:hover .c, .jssort01 .pav .c {
+	background: url(../img/t01.png) center center;
+	border-width: 0px;
+	top: 0px;
+	left: 0px;
+	width: 52px;
+	height: 52px;
+}
+
+.jssort01 .p:hover .c, .jssort01 .pav:hover .c {
+	top: 0px;
+	left: 0px;
+	width: 52px;
+	height: 52px;
+	border: #000 1px solid;
+}
+
+.textinfo {
+	color: #1b1b1b;
+	font-size: 12pt;
+
+}
